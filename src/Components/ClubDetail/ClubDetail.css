@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.club{
+    background-color: blueviolet;
+    color: whitesmoke;
+    border-radius: 15px;
+  
+   
+
+}
+.clubDetail-image{
+    margin-left: 100px;
+}
+.clubDetail-banner img{
+    height: 400px;
+    width: 100%;
+}
+
+.clubDetail-logo img{
+    width:10%;
+    position: relative;
+    margin-top:-24%
+}
+.clubDetail{
+    margin-top:15px
+    
+
+}
+.gender img{
+   width:400px;
+}
+.detail-club{
+    background-color:rgb(4, 4, 51)
+}
