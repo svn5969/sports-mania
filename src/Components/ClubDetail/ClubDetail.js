@@ -37,30 +37,30 @@ const ClubDetail = () => {
 
             <div style={{ border: '1px solid red', width: '70%',margin:'auto' }} className="club">
 
-                <div className="d-flex details">
+                <div className="row details">
                 <div className="col-md-6 clubDetail">
-                    <h1>Club Detail  :-  {detail.strTeam}</h1>
+                    <h5>Club Detail  :-  {detail.strTeam}</h5>
 
 
-                    <h2>Stadium : {detail.strStadium}</h2>
+                    <p><strong>Stadium : {detail.strStadium}</strong></p>
 
 
-                    <h3><FontAwesomeIcon icon={faFlag} /> :-
+                    <p><FontAwesomeIcon icon={faFlag} /> :-
 
-                      Country :{detail.strCountry}</h3>
-
-
-                    <h4><FontAwesomeIcon icon={faMapMarker} />:-
-
-                  Founded :{detail.intFormedYear}</h4>
+                      <strong>Country :{detail.strCountry}</strong> </p>
 
 
-                    <h5> <FontAwesomeIcon icon={faMars} />:-
+                    <p><FontAwesomeIcon icon={faMapMarker} />:-
 
-                   Gender : {detail.strGender}</h5>
+                  <strong>Founded :{detail.intFormedYear}</strong> </p>
+
+
+                    <p> <FontAwesomeIcon icon={faMars} />:-
+
+                   <strong>Gender : {detail.strGender}</strong> </p>
                 </div>
 
-                <div className="gender">
+                <div className="gender col-md-6">
                     {
                         detail.strGender === "Male" ? <img src={img} alt="" /> : <img src={imgg} alt="" />
                     }
