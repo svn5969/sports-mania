@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowRight, faCoffee, faFlag, faMapMarker, faMars } from '@fortawesome/free-solid-svg-icons'
+import {faFlag, faMapMarker, faMars } from '@fortawesome/free-solid-svg-icons'
 import img from '../Images/img2.jpg'
 import imgg from '../Images/img3.jpg'
 import fb from '../Images/Facebook.png'

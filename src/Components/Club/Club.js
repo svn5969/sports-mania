@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowRight, faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { useHistory } from 'react-router';
 import { Card } from 'react-bootstrap';
 import './Club.css'
@@ -8,7 +8,7 @@ import './Club.css'
 
 
 const Club = (props) => {
-  const { idLeague, idTeam, strTeam, strStadium, strCountry, strTeamLogo, strTeamBanner, strTeamBadge, intFormedYear, strGender, strYoutube, strTwitter, strWebsite } = props.club
+  const {idTeam, strTeam,strCountry, strTeamBadge } = props.club
   console.log(props);
   const history = useHistory()
   const showDetails = idTeam => {
